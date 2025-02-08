@@ -16,10 +16,43 @@ h1{
     margin-bottom: 0px;
 }
 
-h2{
+h2,h3{
     color: #1b1b91;
+}
+
+footer{
+    font-size: 75%;
 }
 
 .resort{
     color: #5C7FA3;
+}
+
+table, th, td{
+    border: 2px solid #3399CC;
+    border-collapse: collapse;
+}
+
+tbody > tr:nth-of-type(odd){
+    background-color: #b1e0f2;
+}
+
+th, td{
+    padding: 0.5em;
+}
+
+td{
+    text-align: center;
+}
+
+.left{
+    text-align: left;
+}
+
+ul{
+    list-style-image: url(../images/marker.gif);
+}
+
+#contact{
+    font-size: 90%;
 }
